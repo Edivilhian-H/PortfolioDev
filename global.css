@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: var(--font-family);
+}
+
+:root {
+  --font-family: ( "Asap", sans-serif;);
+}
