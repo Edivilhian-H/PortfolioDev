@@ -1,0 +1,43 @@
+section {
+
+  display: grid;
+  justify-content: center;
+
+
+  #card-box {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+
+    .card {
+      display: flex;
+      flex-direction: column;
+
+      border-radius: 12px;
+      background: var(--stroke-color);
+
+      padding: 12px;
+      width: 330px;
+      height: 280px;
+
+      h3 {
+        color: var(--text-color-primary);
+        font: var(--title-sm);
+        margin-bottom: 8px;
+      }
+
+      p {
+        color: var(--Base-gray-200, #c0c4ce);
+
+        font: var(--text-sm);
+      }
+    }
+
+    img {
+      width: 306px;
+      height: 156px;
+      border-radius: 8px;
+    }
+  }
+}

@@ -43,6 +43,13 @@ body {
   font: var(--subtitle);
 }
 
+.h2 {
+  color: var(--text-color-primary);
+  text-align: center;
+  margin-top: 8px;
+  font: var(--title-md);
+}
+
 .bg-img {
   width: 100vw;
   background: url(../assets/imgs/Background_Intro.png) no-repeat center / cover;
