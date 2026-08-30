@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  text-decoration: none;
+  list-style: none;
 }
 
 :root {
@@ -51,8 +54,8 @@ body {
 }
 
 .bg-img {
-  width: 100vw;
-  background: url(../assets/imgs/Background_Intro.png) no-repeat center / cover;
+ max-width: 1480px;
+ margin-inline: auto;
 }
 
 .h3 {
@@ -65,4 +68,11 @@ body {
   color: var(--Base-gray-200, #c0c4ce);
 
   font: var(--text-sm);
+}
+
+header{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

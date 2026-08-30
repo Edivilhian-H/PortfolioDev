@@ -1,0 +1,62 @@
+footer {
+  height: 787px;
+  display: grid;
+  justify-content: center;
+  background: url(../assets/imgs/Background_Contacts.png) no-repeat center /
+    cover;
+
+  margin-block: 128px 200px;
+
+  header {
+    span {
+      color: var(--Main-prple);
+      font: var(--subtitle);
+    }
+
+    p {
+      color: var(--Base-gray-200, #c0c4ce);
+      text-align: center;
+      margin-top: 8px;
+      font: var(--text-md);
+    }
+  }
+
+  main {
+    ul {
+      display: grid;
+      align-items: center;
+      gap: 16px;
+
+      li {
+        display: flex;
+        padding: 20px;
+        gap: 12px;
+        border-radius: 8px;
+        background: var(--stroke-color);
+
+
+        a {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          position: relative;
+
+          color: var(--text-color-secondary);
+          font: var(--text-md);
+          font-weight: 500;
+
+          img {
+            margin-right: 12px;
+            width: 28px;
+          }
+
+          img:nth-of-type(2) {
+            position: absolute;
+            right: 0;
+            width: 20px;
+          }
+        }
+      }
+    }
+  }
+}

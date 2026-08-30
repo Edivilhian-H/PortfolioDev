@@ -1,4 +1,9 @@
 #section-cards {
+
+  header{
+    padding-block: 72px 56px ;
+
+  }
   display: grid;
   justify-content: center;
 
@@ -41,6 +46,10 @@
 }
 
 #service {
+  header{
+    padding-block: 88px 56px;
+
+  }
   background: var(--brand-color-dark);
   margin-top: 144px;
 

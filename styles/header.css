@@ -1,8 +1,10 @@
-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-block: 120px 57px;
+#info {
+  background: url(../assets/imgs/Background_Intro.png) no-repeat center / cover;
+
+  
+  header {
+    padding-block: 120px 57px;
+  }
 }
 
 #avatar {
