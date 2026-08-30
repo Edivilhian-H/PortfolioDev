@@ -34,6 +34,10 @@ footer {
         border-radius: 8px;
         background: var(--stroke-color);
 
+        
+        &:hover {
+          border: 1.5px solid #3996db;
+        }
 
         a {
           width: 100%;
