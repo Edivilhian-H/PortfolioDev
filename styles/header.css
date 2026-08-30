@@ -11,6 +11,8 @@
   position: relative;
 
   img:nth-child(1) {
+    width: 87.273px;
+
     border-radius: 100%;
     padding: 4px;
     border: 2px solid var(--Main-Red, #e3646e);
