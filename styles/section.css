@@ -1,8 +1,6 @@
-section {
-
+#section-cards {
   display: grid;
   justify-content: center;
-
 
   #card-box {
     width: 50%;
@@ -39,5 +37,35 @@ section {
       height: 156px;
       border-radius: 8px;
     }
+  }
+}
+
+#service {
+  background: var(--brand-color-dark);
+  margin-top: 144px;
+
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+  main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+  }
+
+  div {
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid var(--bg-color);
+
+    margin-bottom: 120px;
+
+    img {
+      width: 48px;
+      margin-bottom: 20px;
+    }
+
+  
   }
 }
